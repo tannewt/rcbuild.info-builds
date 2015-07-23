@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Super-Mini-H-Quad",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2204-1960kv",
+    "fc": "Seriously-Pro/SP-Racing-F3-(Deluxe)",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Lumenier/1800mAh-4s-75c-Lipo"
+    ],
+    "osd": "ReadyToFlyQuads/MinimOSD",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO3+-Silver-Edition",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
