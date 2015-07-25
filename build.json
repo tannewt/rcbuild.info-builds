@@ -1,9 +1,23 @@
-------WebKitFormBoundarynTXe00Axfoqtwkpa
-Content-Disposition: form-data; name="cleanflight_gui_backup.json"
-
-undefined
-------WebKitFormBoundarynTXe00Axfoqtwkpa
-Content-Disposition: form-data; name="cleanflight_cli_dump.txt"
-
-undefined
-------WebKitFormBoundarynTXe00Axfoqtwkpa--
+{
+  "config": {
+    "frame": "Blackout/Super-Mini-H-Quad",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2204-1960kv",
+    "fc": "Seriously-Pro/SP-Racing-F3-(Deluxe)",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "Blackout/Mini-H-Quad---6\"-Arm",
+    "battery": [
+      "Lumenier/1800mAh-4s-75c-Lipo"
+    ],
+    "osd": "ReadyToFlyQuads/MinimOSD",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO3+-Silver-Edition",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "SparkFun/OpenLog",
+    "voltagereg": "Pololu/D24V6F5"
+  },
+  "version": 1
+}
