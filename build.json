@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "Flitetest Electrohub",
-    "esc": "RTF F-30A Fire Red series",
+    "esc": "RTFQ F-30A Fire Red series",
     "motor": "T2212-980KV RTF Motor",
     "fc": "AbuseMark/Full-Naze32",
     "prop": [
