@@ -1,18 +1,27 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ZMR250",
+    "esc": "RG20",
+    "motor": "Cobra/CM-2204-1960kv",
+    "fc": "ReadyMadeRC/Seriously-Dodo",
+    "prop": [
+      "Gemfan/6x4.5-Carbon-Nylon-Propeller---2-Blade-(Set-of-4---Black)",
+      "GemFan 6045",
+      "DAL 6040"
+    ],
+    "arm": "Red20RC ZMR Arms",
+    "battery": [
+      "Dinogy 1800mAh 4s 65C",
+      "Dinogy 1800mAh 3s 65C",
+      "Gens Ace 1800mAh 3s 45C"
+    ],
+    "osd": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
