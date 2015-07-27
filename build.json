@@ -2,7 +2,7 @@
   "config": {
     "frame": "Flitetest Electrohub",
     "esc": "",
-    "motor": "",
+    "motor": "T2212-980KV RTF Motor",
     "fc": "AbuseMark/Full-Naze32",
     "prop": [
     ],
