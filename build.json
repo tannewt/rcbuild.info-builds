@@ -14,7 +14,7 @@
     "flightcam": "",
     "hqcam": "",
     "videotx": "",
-    "blackbox": "",
+    "blackbox": "SparkFun/OpenLog",
     "voltagereg": ""
   },
   "version": 1
