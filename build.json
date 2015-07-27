@@ -3,7 +3,7 @@
     "frame": "Flitetest Electrohub",
     "esc": "",
     "motor": "",
-    "fc": "",
+    "fc": "AbuseMark/Full-Naze32",
     "prop": [
     ],
     "arm": "",
