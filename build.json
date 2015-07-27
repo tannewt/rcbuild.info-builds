@@ -5,6 +5,7 @@
     "motor": "T2212-980KV RTF Motor",
     "fc": "AbuseMark/Full-Naze32",
     "prop": [
+      "HQProp/9x4.5-FG-MR"
     ],
     "arm": "",
     "battery": [
