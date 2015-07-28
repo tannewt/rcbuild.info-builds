@@ -1,6 +1,6 @@
 {
   "config": {
-    "frame": "Flitetest Electrohub",
+    "frame": "Flitetest/Electrohub-Quadcopter",
     "esc": "UnknownManufacturer/readytoflyquads/F-30A-Fire-Red-series-SimonK-(RapidESC)",
     "motor": "UnknownManufacturer/readytoflyquads/T2212-980KV-RTF-Motor",
     "fc": "AbuseMark/Full-Naze32",
