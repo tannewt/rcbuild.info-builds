@@ -1,10 +1,12 @@
 
 # version
-# Cleanflight/SPRACINGF3 1.9.0 Jul 10 2015 / 06:04:26 (1c01daf)
+# Cleanflight/SPRACINGF3 1.10.0 Jul 24 2015 / 08:00:46 (6c3ec4c)
 # dump master
 
 # mixer
 mixer QUADX
+mmix reset
+smix reset
 
 
 # feature
@@ -28,6 +30,7 @@ feature -LED_STRIP
 feature -DISPLAY
 feature -ONESHOT125
 feature -BLACKBOX
+feature -CHANNEL_FORWARDING
 feature RX_PPM
 feature VBAT
 feature SOFTSERIAL
@@ -43,7 +46,7 @@ map AETR1234
 
 
 # serial
-serial 0 5 115200 57600 0 250000
+serial 0 5 115200 57600 0 115200
 serial 1 128 115200 57600 0 250000
 serial 2 0 115200 57600 0 115200
 serial 30 0 115200 57600 0 115200
@@ -126,7 +129,6 @@ set retarded_arm = 0
 set disarm_kill_switch = 1
 set auto_disarm_delay = 5
 set small_angle = 25
-set flaps_speed = 0
 set fixedwing_althold_dir = 1
 set reboot_character = 82
 set gps_provider = 0
@@ -159,13 +161,13 @@ set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 90
 set max_angle_inclination = 500
-set gyro_lpf = 256
+set gyro_lpf = 0
 set moron_threshold = 32
 set gyro_cmpf_factor = 600
 set gyro_cmpfm_factor = 250
 set yaw_control_direction = 1
 set pid_at_min_throttle = 1
-set yaw_direction = 1
+set yaw_motor_direction = 1
 set yaw_jump_prevention_limit = 200
 set tri_unarmed_servo = 1
 set servo_lowpass_freq = 400
@@ -178,17 +180,37 @@ set rx_max_usec = 2115
 set acc_hardware = 0
 set mag_hardware = 0
 set blackbox_rate_num = 1
-set blackbox_rate_denom = 1
-set blackbox_device = 1
+set blackbox_rate_denom = 2
+set blackbox_device = 0
+
+# rxfail
+rxfail 0 1500
+rxfail 1 1500
+rxfail 2 1500
+rxfail 3 1500
+rxfail 4 1500
+rxfail 5 1500
+rxfail 6 1500
+rxfail 7 1500
+rxfail 8 1500
+rxfail 9 1500
+rxfail 10 1500
+rxfail 11 1500
+rxfail 12 1500
+rxfail 13 1500
+rxfail 14 1500
+rxfail 15 1500
+rxfail 16 1500
+rxfail 17 1500
 
 # dump profile
 
 # profile
-profile 1
+profile 0
 
 # aux
 aux 0 12 0 1300 2100
-aux 1 22 0 925 2100
+aux 1 0 0 900 900
 aux 2 0 0 900 900
 aux 3 0 0 900 900
 aux 4 0 0 900 900
@@ -223,8 +245,8 @@ adjrange 10 0 0 900 900 0 0
 adjrange 11 0 0 900 900 0 0
 
 # servo
-servo 0 1000 2000 1500 90 90 30 -1
-servo 1 1000 2000 1500 90 90 30 -1
+servo 0 1000 2000 1500 90 90 100 -1
+servo 1 1000 2000 1500 90 90 100 -1
 servo 2 1000 2000 1500 90 90 100 -1
 servo 3 1000 2000 1500 90 90 100 -1
 servo 4 1000 2000 1500 90 90 100 -1
@@ -252,8 +274,8 @@ set deadband = 0
 set yaw_deadband = 0
 set throttle_correction_value = 0
 set throttle_correction_angle = 800
-set default_rate_profile = 1
-set gimbal_flags = 1
+set default_rate_profile = 0
+set gimbal_mode = 0
 set acc_lpf_factor = 4
 set accxy_deadband = 40
 set accz_deadband = 40
@@ -305,7 +327,7 @@ set dterm_cut_hz = 17
 # dump rates
 
 # rateprofile
-rateprofile 1
+rateprofile 0
 
 set rc_rate = 90
 set rc_expo = 65
