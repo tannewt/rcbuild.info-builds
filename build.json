@@ -15,7 +15,7 @@
     "flightcam": "RunCam/PZ0420H",
     "hqcam": "GoPro/HERO4-Black",
     "videotx": "ImmersionRC/5.8GHz-600mw",
-    "blackbox": "",
+    "blackbox": "SparkFun/OpenLog",
     "voltagereg": ""
   },
   "version": 1
