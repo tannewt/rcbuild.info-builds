@@ -1,0 +1,9 @@
+{
+  "hd": {"url": "http://youtu.be/nYDy_-16j1M", "arm_time": -1},
+  "flight": {"url": "https://youtu.be/xX_Bx5ZJHjk", "arm_time": -1},
+  "blackbox": {"url": "https://www.dropbox.com/s/xssh6et9riu1hqq/LOG00388.TXT?dl=0"},
+  "setting_commit": "5863f77f8f65a633db09cddd7ced462d16509fe7",
+  "other_quads": [
+    {"id": "", "flight": "", "arm_time": ""}
+  ]
+}
