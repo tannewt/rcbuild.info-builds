@@ -1,0 +1,8 @@
+{
+  "hd": {"url": "", "arm_time": -1},
+  "flight": {"url": "", "arm_time": -1},
+  "blackbox": {"url": "https://www.dropbox.com/s/o9azbbwhv8sygb3/LOG00392.TXT?dl=0"},
+  "other_quads": [
+    {"id": "", "flight": "", "arm_time": ""}
+  ]
+}
