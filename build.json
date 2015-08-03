@@ -1,3 +1,18 @@
-{
-  "state": "saving"
+{"version": 1,
+ "config": {
+    "frame" : "",
+    "arm" : "",
+    "fc" : "",
+    "osd" : "",
+    "receiver" : "",
+    "flightcam" : "",
+    "hqcam" : "",
+    "esc" : "",
+    "motor" : "",
+    "videotx" : "",
+    "blackbox" : "",
+    "voltagereg" : "",
+    "prop" : [],
+    "battery" : []
+  }
 }
