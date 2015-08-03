@@ -7,7 +7,7 @@
     "prop": [
       "HQProp/10x3.8-CF-MR"
     ],
-    "arm": "3DRobotics/3DR-APM-2.6-with-GPS",
+    "arm": "",
     "battery": [
     ],
     "osd": "",
