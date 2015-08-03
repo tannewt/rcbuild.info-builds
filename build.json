@@ -2,7 +2,7 @@
   "config": {
     "frame": "Blackout/330-Quad",
     "esc": "DYS/Mini-40A",
-    "motor": "",
+    "motor": "Cobra/CM-2204-1960kv",
     "fc": "",
     "prop": [
     ],
