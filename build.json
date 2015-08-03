@@ -14,7 +14,7 @@
     "osd": "ImmersionRC/EzOSD",
     "receiver": "",
     "flightcam": "",
-    "hqcam": "",
+    "hqcam": "GoPro/HD-HERO",
     "videotx": "",
     "blackbox": "",
     "voltagereg": ""
