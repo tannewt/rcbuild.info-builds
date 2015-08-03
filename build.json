@@ -3,7 +3,7 @@
     "frame": "Blackout/330-Quad",
     "esc": "DYS/Mini-40A",
     "motor": "Cobra/CM-2204-1960kv",
-    "fc": "",
+    "fc": "AbuseMark/Full-Naze32",
     "prop": [
     ],
     "arm": "",
