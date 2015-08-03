@@ -15,7 +15,7 @@
     "receiver": "FrSky/D6FR",
     "flightcam": "",
     "hqcam": "GoPro/HD-HERO",
-    "videotx": "",
+    "videotx": "ImmersionRC/2.4GHz-International-700mw",
     "blackbox": "",
     "voltagereg": ""
   },
