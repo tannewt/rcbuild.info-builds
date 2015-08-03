@@ -5,6 +5,7 @@
     "motor": "Cobra/CM-2204-1960kv",
     "fc": "AbuseMark/Full-Naze32",
     "prop": [
+      "HQProp/10x3.8-CF-MR"
     ],
     "arm": "",
     "battery": [
