@@ -12,7 +12,7 @@
       "Lumenier/10000mAh-6s-25c-Lipo"
     ],
     "osd": "ImmersionRC/EzOSD",
-    "receiver": "",
+    "receiver": "FrSky/D6FR",
     "flightcam": "",
     "hqcam": "GoPro/HD-HERO",
     "videotx": "",
