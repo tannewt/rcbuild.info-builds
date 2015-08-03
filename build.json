@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "Blackout/330-Quad",
-    "esc": "",
+    "esc": "DYS/Mini-40A",
     "motor": "",
     "fc": "",
     "prop": [
