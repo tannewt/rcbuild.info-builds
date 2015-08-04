@@ -1,0 +1,17 @@
+set pid_controller = 1
+set looptime = 1500
+
+set p_pitch = 53
+set i_pitch = 34
+set d_pitch = 18
+set p_roll = 46
+set i_roll = 32
+set d_roll = 35
+set p_yaw = 75
+set i_yaw = 45
+set d_yaw = 5
+
+set rc_rate = 120
+set roll_rate = 35
+set pitch_rate = 35
+set yaw_rate = 40
