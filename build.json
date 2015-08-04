@@ -1,19 +1,21 @@
 {
   "config": {
     "frame": "Blackout/Super-Mini-H-Quad",
-    "esc": "",
-    "motor": "",
-    "fc": "",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "Cobra/CM-2204-1960kv",
+    "fc": "AbuseMark/Acro-Naze32",
     "prop": [
+      "HQProp/6x4.5-FG-DD"
     ],
-    "arm": "",
+    "arm": "Blackout/Mini-H-Quad---6\"-Arm",
     "battery": [
+      "Nano-Tech 4S 1800mAh"
     ],
     "osd": "",
-    "receiver": "",
-    "flightcam": "",
-    "hqcam": "",
-    "videotx": "",
+    "receiver": "Futaba FASST",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
     "blackbox": "",
     "voltagereg": ""
   },
