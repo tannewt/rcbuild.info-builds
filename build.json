@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "UnknownManufacturer/readymaderc/ZMR-250-Quadcopter---Full-Carbon-Fiber-Frame-Kit",
+    "esc": "RCTimer/Mini-ESC16A",
+    "motor": "DYS/BE1806-2300kv",
+    "fc": "Seriously-Pro/SP-Racing-F3-(Acro)",
+    "prop": [
+      "Gemfan/5x4-Carbon-Nylon-Propeller---2-Blade-(Set-of-4---Black)"
+    ],
+    "arm": "",
+    "battery": [
+      "Nano-Tech 3S 1500mAh 35-70C"
+    ],
+    "osd": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "",
+    "hqcam": "RunCam/HD",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
