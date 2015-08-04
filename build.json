@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "RD270",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "Cobra/CM-2208-2000kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "Tough Speed Racer Arm 6\"",
+    "battery": [
+      "Dinogy 4S 1800mAh 65C"
+    ],
+    "osd": "",
+    "receiver": "EzUHF",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "Xiaomi/Yi-Action-Camera-1080P-60FPS-(White)",
+    "videotx": "1.2 200mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
