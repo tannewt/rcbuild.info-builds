@@ -1,19 +1,21 @@
 {
   "config": {
     "frame": "Blackout/Mini-H-Quad",
-    "esc": "",
-    "motor": "",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2204-2300kv",
     "fc": "",
     "prop": [
+      "HQProp/5x4.5-FG-BN"
     ],
     "arm": "",
     "battery": [
+      "MultiStar 4S 1400mAh 40-80C"
     ],
     "osd": "",
     "receiver": "",
-    "flightcam": "",
+    "flightcam": "RunCam/PZ0420H",
     "hqcam": "",
-    "videotx": "",
+    "videotx": "Skyzone/TS5823-200mw-video-transmitter",
     "blackbox": "",
     "voltagereg": ""
   },
