@@ -12,10 +12,10 @@
       "Horeson 4S 1900mAh 40C"
     ],
     "osd": "ReadyToFlyQuads/Micro-MinimOSD",
-    "receiver": "",
+    "receiver": "FrSky/X4R",
     "flightcam": "",
     "hqcam": "",
-    "videotx": "",
+    "videotx": "Aomway Micro 200mw",
     "blackbox": "",
     "voltagereg": ""
   },
