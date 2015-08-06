@@ -17,7 +17,7 @@
     "hqcam": "GoPro/HD-HERO",
     "videotx": "ImmersionRC/2.4GHz-International-700mw",
     "blackbox": "SparkFun/OpenLog",
-    "voltagereg": ""
+    "voltagereg": "Pololu/D24V6F5"
   },
   "version": 1
 }
