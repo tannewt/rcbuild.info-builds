@@ -13,7 +13,7 @@
     ],
     "osd": "ImmersionRC/EzOSD",
     "receiver": "FrSky/D6FR",
-    "flightcam": "",
+    "flightcam": "RunCam/PZ0420H",
     "hqcam": "GoPro/HD-HERO",
     "videotx": "ImmersionRC/2.4GHz-International-700mw",
     "blackbox": "",
