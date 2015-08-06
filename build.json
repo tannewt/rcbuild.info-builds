@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "Blackout/Mini-H-Quad",
-    "esc": "RCTimer/Mini-ESC20A",
+    "esc": "ReadyToFlyQuads/BearHugESC-18Amp",
     "motor": "Cobra/CM-2204-1960kv",
     "fc": "",
     "prop": [
