@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Mini-H-Quad",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4x3-FG-DD"
+    ],
+    "arm": "Hoverthings 10 Degree G10 Angled Mounts",
+    "battery": [
+      "4S 1300mAh 70C Thunderpower"
+    ],
+    "osd": "Team-BlackSheep/TBS-Core-PNP50",
+    "receiver": "",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO4-Silver",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
