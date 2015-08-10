@@ -11,7 +11,7 @@
     "motor" : "multirotormania v2 2204 2300kv",
     "videotx" : "imersion rc 600mw ",
     "blackbox" : "",
-    "voltagereg" : "2 polulu 5v",
+    "voltagereg" : "2 pololu 5v",
     "prop" : [gemfan 5045bn],
     "battery" : [1500mah turnigy nanotech 35-70c]
   }
