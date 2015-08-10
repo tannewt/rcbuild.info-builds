@@ -1,18 +1,18 @@
 {"version": 1,
  "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
+    "frame" : "zmr-250-cf",
+    "arm" : "stock",
+    "fc" : "dragonfly 32 pro compact",
+    "osd" : "micro minimosd",
+    "receiver" : "frsky d4r2",
+    "flightcam" : "surveilzone HS1177",
+    "hqcam" : "mobius",
+    "esc" : "multirotormania 12 amp atmel",
+    "motor" : "multirotormania v2 2204 2300kv",
+    "videotx" : "imersion rc 600mw ",
     "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
+    "voltagereg" : "2 polulu 5v",
+    "prop" : [gemfan 5045bn],
+    "battery" : [1500mah turnigy nanotech 35-70c]
   }
 }
