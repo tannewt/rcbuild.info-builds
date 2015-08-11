@@ -14,7 +14,7 @@
     "osd": "ReadyToFlyQuads/MinimOSD",
     "receiver": "FrSky/D4R-II",
     "flightcam": "RunCam/PZ0420H",
-    "hqcam": "GoPro/HERO3+-Silver-Edition",
+    "hqcam": "",
     "videotx": "ImmersionRC/5.8GHz-600mw",
     "blackbox": "SparkFun/OpenLog",
     "voltagereg": "Pololu/D24V6F5"
