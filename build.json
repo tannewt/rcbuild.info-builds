@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Super-Mini-H-Quad",
+    "esc": "ZTW 20A (A-serie)",
+    "motor": "Cobra/CM-2204-1960kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HWProp 6x3.5"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/TATTU-1800mAh-4s-75c-Lipo-Battery"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
