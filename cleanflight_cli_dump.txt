@@ -1,0 +1,19 @@
+set pid_controller = 2
+set looptime = 800
+
+set p_pitchf = 0.94
+set i_pitchf = 0.38
+set d_pitchf = 0.022
+set p_rollf = 0.72
+set i_rollf = 0.32
+set d_rollf = 0.022
+set p_yawf = 3.0
+set i_yawf = 0.6
+set d_yawf = 0.018
+
+set gyro_lpf = 256
+set gyro_cut_hz = 60
+set pterm_cut_hz = 40
+set dterm_cut_hz = 13
+
+set telemetry_inversion = 1
