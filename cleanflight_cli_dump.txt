@@ -49,7 +49,7 @@ map AETR1234
 serial 0 5 115200 57600 0 115200
 serial 1 128 115200 57600 0 250000
 serial 2 0 115200 57600 0 115200
-serial 30 0 115200 57600 0 115200
+serial 30 0 19200 57600 0 115200
 serial 31 1 19200 57600 0 115200
 
 
@@ -292,7 +292,7 @@ set pid_controller = 1
 set p_pitch = 40
 set i_pitch = 30
 set d_pitch = 40
-set p_roll = 40
+set p_roll = 37
 set i_roll = 40
 set d_roll = 40
 set p_yaw = 85
