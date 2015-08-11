@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/330-Quad",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2208-2000kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Lumenier/CS-600-Super---600TVL-D-WDR-Camera",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
