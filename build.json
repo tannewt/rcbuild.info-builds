@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "RD230",
-    "esc": "DYS/Mini-20A",
+    "esc": "Flyduino/KISS-18A",
     "motor": "Cobra/CM-2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
@@ -15,7 +15,7 @@
     "receiver": "EzUHF",
     "flightcam": "",
     "hqcam": "Xiaomi/Yi-Action-Camera-1080P-60FPS-(White)",
-    "videotx": "Aomway 5.8ghz 200mw vtx",
+    "videotx": "Drone-Matters/1.3GHz-400mW-Audio-Video-Transmitter",
     "blackbox": "",
     "voltagereg": ""
   },
