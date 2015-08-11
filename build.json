@@ -1,11 +1,11 @@
 {
   "config": {
-    "frame": "UnknownManufacturer/readymaderc/ZMR-250-Quadcopter---Full-Carbon-Fiber-Frame-Kit",
+    "frame": "ReadyMadeRC/ZMR-250",
     "esc": "RCTimer/Mini-ESC16A",
     "motor": "DYS/BE1806-2300kv",
     "fc": "Seriously-Pro/SP-Racing-F3-(Acro)",
     "prop": [
-      "Gemfan/5x4-Carbon-Nylon-Propeller---2-Blade-(Set-of-4---Black)"
+      "Gemfan/5x4-FG-MR"
     ],
     "arm": "",
     "battery": [
