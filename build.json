@@ -1,18 +1,25 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "EVO250",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2204-1960kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-FG-DD",
+      "HQProp/5x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/Nano-Tech-3S-1300mAh-45-90C",
+      "Turnigy Nano-Tech 4S 1800mAh 65C"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
