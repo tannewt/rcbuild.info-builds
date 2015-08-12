@@ -1,0 +1,14 @@
+set roll_rate = 48
+set pitch_rate = 48
+set yaw_rate = 40
+
+set pid_controller = 2
+set p_rollf = 1.300
+set i_rollf = 0.055
+set d_rollf = 35
+set p_pitchf = 1.300
+set i_pitchf = 0.055
+set d_pitchf = 35
+set p_yawf = 3.0
+set i_yawf = 0.100
+set d_yawf = 5
