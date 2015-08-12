@@ -1,18 +1,25 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "RCX H250CF-3K",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "RCX H2206 1950KV",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-CF-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/TATTU-1800mAh-4s-75c-Lipo-Battery",
+      "Dinogy/4S-1800mAh-65C",
+      "Nano-Tech 4S 1800mah A-Spec 65-130C"
+    ],
+    "osd": "",
+    "receiver": "Brotronics 4CH Remix OpenLRSng",
+    "flightcam": "SureilZone PZ0420",
+    "hqcam": "",
+    "videotx": "Skyzone/TS5823-200mw-video-transmitter",
+    "blackbox": "",
+    "voltagereg": "Banggood Micro Adjustable voltage regulator"
+  },
+  "version": 1
 }
