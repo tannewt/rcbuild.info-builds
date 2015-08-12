@@ -1,1 +1,17 @@
 set looptime = 125
+set pid_controller = 2
+
+set gyro_lpf = 0
+set gyro_cut_hz = 60
+set pterm_cut_hz = 40
+set dterm_cut_hz = 15
+
+set p_pitchf = 1.350
+set i_pitchf = 0.550
+set d_pitchf = 0.035
+set p_rollf = 1.000
+set i_rollf = 0.350
+set d_rollf = 0.027
+set p_yawf = 3.000
+set i_yawf = 1.000
+set d_yawf = 0.005
