@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Zuul Superbeast",
+    "esc": "DYS/Mini-30A",
+    "motor": "Cobra 2213 2000kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/TATTU-2200mAh-4s-35c-Lipo-Battery"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
