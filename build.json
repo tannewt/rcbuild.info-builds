@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Drone-Matters/ZMR-H250",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2206-2100kv",
+    "fc": "AbuseMark/Afro-Mini-32",
+    "prop": [
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/Nano-Tech-4S-1300mAh-45-90C"
+    ],
+    "osd": "ReadyToFlyQuads/MinimOSD",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }

@@ -1,0 +1,84 @@
+# version
+# CleanFlight BetaFlight/NAZE 1.10.0 Aug 13 2015 / 10:05:19 (8c784ad)
+
+# mixer
+mixer CUSTOM
+mmix reset
+mmix 0 1.000 -1.000 0.765 -1.000
+mmix 1 1.000 -1.000 -0.765 1.000
+mmix 2 1.000 1.000 0.765 1.000
+mmix 3 1.000 1.000 -0.765 -1.000
+smix reset
+
+
+# feature
+feature RX_PPM
+feature VBAT
+feature MOTOR_STOP
+feature FAILSAFE
+feature CURRENT_METER
+feature ONESHOT125
+
+set looptime = 0
+set emf_avoidance = 1
+set mid_rc = 1500
+set min_check = 1100
+set max_check = 1900
+set input_filtering_mode = 0
+set min_throttle = 1080
+set max_throttle = 1800
+set min_command = 1000
+set servo_center_pulse = 1500
+set 3d_deadband_low = 1406
+set 3d_deadband_high = 1514
+set 3d_neutral = 1460
+set 3d_deadband_throttle = 50
+set motor_pwm_rate = 400
+set servo_pwm_rate = 50
+set retarded_arm = 0
+set disarm_kill_switch = 0
+set gyro_lpf = 256
+set yaw_control_direction = 1
+set pid_at_min_throttle = 1
+set yaw_motor_direction = 1
+set yaw_jump_prevention_limit = 200
+set failsafe_delay = 1
+set failsafe_off_delay = 10
+set failsafe_throttle = 1000
+set rx_min_usec = 985
+set rx_max_usec = 2115
+
+rxfail 2 h 1000
+
+set deadband = 0
+set yaw_deadband = 0
+set throttle_correction_value = 0
+set throttle_correction_angle = 800
+set pid_controller = 2
+set p_pitchf = 1.400
+set i_pitchf = 0.550
+set d_pitchf = 0.032
+set p_rollf = 1.100
+set i_rollf = 0.350
+set d_rollf = 0.028
+set p_yawf = 3.000
+set i_yawf = 1.000
+set d_yawf = 0.005
+set level_horizon = 3.000
+set level_angle = 5.000
+set sensitivity_horizon = 100
+set yaw_p_limit = 500
+set gyro_cut_hz = 60
+set pterm_cut_hz = 40
+set dterm_cut_hz = 15
+
+set rc_rate = 100
+set rc_expo = 70
+set rc_yaw_expo = 40
+set thr_mid = 50
+set thr_expo = 0
+set roll_rate = 85
+set pitch_rate = 85
+set yaw_rate = 50
+set tpa_rate = 50
+set tpa_breakpoint = 1500
