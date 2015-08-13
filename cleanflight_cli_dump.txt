@@ -1,0 +1,21 @@
+# version
+# Cleanflight/NAZE32 1.7.2
+
+set pid_controller = 1
+set looptime = 2200
+
+set p_roll = 40
+set i_roll = 45
+set d_roll = 32
+set p_pitch = 45
+set i_pitch = 38
+set d_pitch = 32
+set p_yaw = 110
+set i_yaw = 50
+set d_yaw = 1
+
+set rc_rate = 130
+set roll_rate = 55
+set pitch_rate = 55
+set yaw_rate = 40
+set tpa_rate = 0
