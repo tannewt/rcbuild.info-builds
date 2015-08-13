@@ -1,8 +1,8 @@
 {
   "config": {
-    "frame": "Zuul Superbeast",
+    "frame": "Hovership/ZUUL-Superbeast",
     "esc": "DYS/Mini-30A",
-    "motor": "Cobra 2213 2000kv",
+    "motor": "Cobra/2213-2000kv-Brushless-Motor",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
     ],
