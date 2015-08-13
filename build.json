@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ReadyMadeRC/ZMR-250",
+    "esc": "XRotor 40A",
+    "motor": "Sunnysky/X2208-1500kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-FG-BN"
+    ],
+    "arm": "Thug",
+    "battery": [
+      "Nano-Tech 6S 1550mAh 65-130C"
+    ],
+    "osd": "",
+    "receiver": "Brotronics/4ch-Remix",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "",
+    "videotx": "GetFPV-Affiliate/5.8GHz-32CH-A-V-200mW-Transmitter-(TS5823)",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
