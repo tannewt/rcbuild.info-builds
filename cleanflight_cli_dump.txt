@@ -1,6 +1,6 @@
 
 # version
-# Cleanflight/SPRACINGF3 1.10.0 Jul 24 2015 / 08:00:46 (6c3ec4c)
+# BetaFlight/SPRACINGF3 1.10.0 Aug 15 2015 / 22:02:32 (65acb7f)
 # dump master
 
 # mixer
@@ -107,7 +107,9 @@ color 14 0,0,0
 color 15 0,0,0
 
 set looptime = 800
+set sync_gyro_to_loop = 1
 set emf_avoidance = 0
+set rc_smoothing = 1
 set mid_rc = 1500
 set min_check = 1100
 set max_check = 1900
@@ -178,35 +180,35 @@ set failsafe_throttle = 1000
 set rx_min_usec = 985
 set rx_max_usec = 2115
 set acc_hardware = 0
+set baro_hardware = 0
 set mag_hardware = 0
 set blackbox_rate_num = 1
 set blackbox_rate_denom = 2
 set blackbox_device = 0
+set magzero_x = 0
+set magzero_y = 0
+set magzero_z = 0
 
 # rxfail
-rxfail 0 1500
-rxfail 1 1500
-rxfail 2 1500
-rxfail 3 1500
-rxfail 4 1500
-rxfail 5 1500
-rxfail 6 1500
-rxfail 7 1500
-rxfail 8 1500
-rxfail 9 1500
-rxfail 10 1500
-rxfail 11 1500
-rxfail 12 1500
-rxfail 13 1500
-rxfail 14 1500
-rxfail 15 1500
-rxfail 16 1500
-rxfail 17 1500
+rxfail 0 h 1500
+rxfail 1 h 1500
+rxfail 2 h 1500
+rxfail 3 h 1500
+rxfail 4 h 1500
+rxfail 5 h 1500
+rxfail 6 h 1500
+rxfail 7 h 1500
+rxfail 8 h 1500
+rxfail 9 h 1500
+rxfail 10 h 1500
+rxfail 11 h 1500
+rxfail 12 h 1500
+rxfail 13 h 1500
 
 # dump profile
 
 # profile
-profile 0
+profile 1
 
 # aux
 aux 0 12 0 1300 2100
@@ -244,6 +246,12 @@ adjrange 9 0 0 900 900 0 0
 adjrange 10 0 0 900 900 0 0
 adjrange 11 0 0 900 900 0 0
 
+# rxrange
+rxrange 0 1000 2000
+rxrange 1 1000 2000
+rxrange 2 1000 2000
+rxrange 3 1000 2000
+
 # servo
 servo 0 1000 2000 1500 90 90 100 -1
 servo 1 1000 2000 1500 90 90 100 -1
@@ -274,7 +282,7 @@ set deadband = 0
 set yaw_deadband = 0
 set throttle_correction_value = 0
 set throttle_correction_angle = 800
-set default_rate_profile = 0
+set default_rate_profile = 1
 set gimbal_mode = 0
 set acc_lpf_factor = 4
 set accxy_deadband = 40
@@ -288,25 +296,25 @@ set baro_noise_lpf =  0.600
 set baro_cf_vel =  0.985
 set baro_cf_alt =  0.965
 set mag_declination = 0
-set pid_controller = 1
+set pid_controller = 2
 set p_pitch = 40
 set i_pitch = 30
-set d_pitch = 40
-set p_roll = 37
-set i_roll = 40
-set d_roll = 40
+set d_pitch = 23
+set p_roll = 40
+set i_roll = 30
+set d_roll = 23
 set p_yaw = 85
 set i_yaw = 45
-set d_yaw = 10
-set p_pitchf =  2.500
-set i_pitchf =  0.600
-set d_pitchf =  0.060
-set p_rollf =  2.500
-set i_rollf =  0.600
-set d_rollf =  0.060
-set p_yawf =  8.000
-set i_yawf =  0.500
-set d_yawf =  0.050
+set d_yaw = 0
+set p_pitchf =  0.800
+set i_pitchf =  0.000
+set d_pitchf =  0.000
+set p_rollf =  0.800
+set i_rollf =  0.000
+set d_rollf =  0.000
+set p_yawf =  2.500
+set i_yawf =  0.000
+set d_yawf =  0.000
 set level_horizon =  3.000
 set level_angle =  5.000
 set sensitivity_horizon = 75
@@ -320,14 +328,14 @@ set p_vel = 120
 set i_vel = 45
 set d_vel = 1
 set yaw_p_limit = 500
-set gyro_cut_hz = 90
-set pterm_cut_hz = 50
-set dterm_cut_hz = 17
+set gyro_cut_hz = 60
+set pterm_cut_hz = 40
+set dterm_cut_hz = 8
 
 # dump rates
 
 # rateprofile
-rateprofile 0
+rateprofile 1
 
 set rc_rate = 90
 set rc_expo = 70
@@ -337,5 +345,5 @@ set thr_expo = 0
 set roll_rate = 25
 set pitch_rate = 25
 set yaw_rate = 25
-set tpa_rate = 0
+set tpa_rate = 50
 set tpa_breakpoint = 1500
