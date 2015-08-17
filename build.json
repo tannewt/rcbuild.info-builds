@@ -1,18 +1,21 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "DroneXLabs Racing Quad",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "Xiaomi/Yi-Action-Camera-1080P-60FPS-(White)",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": "Matcat RC LC filter and 12v bec"
+  },
+  "version": 1
 }

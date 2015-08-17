@@ -1,0 +1,6 @@
+set acc_hardware = 1
+set looptime = 800
+set gyro_lpf = 256
+set gyro_cut_hz = 80
+set pterm_cut_hz = 50
+set dterm_cut_hz = 14
