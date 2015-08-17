@@ -1,27 +1,126 @@
-set pid_controller = 2
-set looptime = 800
-set p_pitchf = 1.350
-set i_pitchf = 0.550
-set d_pitchf = 0.035
-set p_rollf = 1.000
-set i_rollf = 0.350
-set d_rollf = 0.027
-set p_yawf = 3.000
-set i_yawf = 1.000
-set d_yawf = 0.005
+# feature
+feature -RX_PPM
+feature -VBAT
+feature -INFLIGHT_ACC_CAL
+feature -RX_SERIAL
+feature -MOTOR_STOP
+feature -SERVO_TILT
+feature -SOFTSERIAL
+feature -GPS
+feature -FAILSAFE
+feature -SONAR
+feature -TELEMETRY
+feature -CURRENT_METER
+feature -3D
+feature -RX_PARALLEL_PWM
+feature -RX_MSP
+feature -RSSI_ADC
+feature -LED_STRIP
+feature -DISPLAY
+feature -ONESHOT125
+feature -BLACKBOX
+feature -CHANNEL_FORWARDING
+feature RX_PPM
+feature VBAT
+feature FAILSAFE
+feature TELEMETRY
+feature ONESHOT125
+
+# aux
+aux 0 1 0 1700 2100
+aux 1 12 1 1700 2100
+aux 2 25 1 900 1300
+aux 3 0 0 900 900
+aux 4 0 0 900 900
+aux 5 0 0 900 900
+aux 6 0 0 900 900
+aux 7 0 0 900 900
+aux 8 0 0 900 900
+aux 9 0 0 900 900
+aux 10 0 0 900 900
+aux 11 0 0 900 900
+aux 12 0 0 900 900
+aux 13 0 0 900 900
+aux 14 0 0 900 900
+aux 15 0 0 900 900
+aux 16 0 0 900 900
+aux 17 0 0 900 900
+aux 18 0 0 900 900
+aux 19 0 0 900 900
+
+set looptime = 0
+set sync_gyro_to_loop = 1
+set rc_smoothing = 1
+set mid_rc = 1500
+set min_check = 1040
+set max_check = 1900
+set min_throttle = 1170
+set max_throttle = 1832
+set min_command = 1000
 
 set gyro_lpf = 0
+
+set telemetry_inversion = 1
+
+# map
+map TAER1234
+
+set align_board_roll = -10
+set align_board_pitch = 0
+set align_board_yaw = 90
+
+
+set yaw_jump_prevention_limit = 300
+
+
+set pid_controller = 2
+set p_pitch = 66
+set i_pitch = 34
+set d_pitch = 38
+set p_roll = 35
+set i_roll = 30
+set d_roll = 26
+set p_yaw = 105
+set i_yaw = 65
+set d_yaw = 13
+set p_pitchf =  1.100
+set i_pitchf =  0.550
+set d_pitchf =  0.035
+set p_rollf =  0.800
+set i_rollf =  0.350
+set d_rollf =  0.027
+set p_yawf =  3.000
+set i_yawf =  1.000
+set d_yawf =  0.005
+set level_horizon =  1.000
+set level_angle =  5.500
+set sensitivity_horizon = 100
+set p_alt = 50
+set i_alt = 0
+set d_alt = 0
+set p_level = 25
+set i_level = 25
+set d_level = 100
+set p_vel = 0
+set i_vel = 0
+set d_vel = 0
+set yaw_p_limit = 500
 set gyro_cut_hz = 60
 set pterm_cut_hz = 40
-set dterm_cut_hz = 15
+set dterm_cut_hz = 8
+
+# dump rates
+
+# rateprofile
+rateprofile 0
 
 set rc_rate = 100
-set rc_expo = 70
-set rc_yaw_expo = 40
+set rc_expo = 72
+set rc_yaw_expo = 42
 set thr_mid = 50
 set thr_expo = 0
-set roll_rate = 58
-set pitch_rate = 58
+set roll_rate = 56
+set pitch_rate = 56
 set yaw_rate = 38
 set tpa_rate = 50
 set tpa_breakpoint = 1500
