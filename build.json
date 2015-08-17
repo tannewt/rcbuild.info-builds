@@ -1,8 +1,8 @@
 {
   "config": {
-    "frame": "RCX H250CF-3K",
+    "frame": "RCX/H250CF-3K-Quadcopter",
     "esc": "Rotorgeeks/RG20",
-    "motor": "RCX H2206 1950KV",
+    "motor": "RCX/H2206-1950KV",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
       "HQProp/6x4.5-CF-BN"
@@ -14,8 +14,8 @@
       "Nano-Tech 4S 1800mah A-Spec 65-130C"
     ],
     "osd": "",
-    "receiver": "Brotronics 4CH Remix OpenLRSng",
-    "flightcam": "SurveilZone PZ0420",
+    "receiver": "Brotronics/4ch-Remix",
+    "flightcam": "RunCam/PZ0420H",
     "hqcam": "",
     "videotx": "Skyzone/TS5823-200mw-video-transmitter",
     "blackbox": "",
