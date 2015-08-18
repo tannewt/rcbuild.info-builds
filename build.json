@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Reptile X-260",
+    "esc": "EMAX/BLHeli-Series-12A-ESC",
+    "motor": "DYS/BE1806-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/5x4-FG-MR"
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "ReadyToFlyQuads/700TVL-Camera-(1-3-Sony-Mini-CCD)",
+    "hqcam": "",
+    "videotx": "Skyzone/TS832-600mw-video-transmitter",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
