@@ -1,0 +1,12 @@
+set pid_controller = 2
+set p_rollf = 1.2
+set i_rollf = 0.015
+set d_rollf = 22
+set p_pitchf = 2.7
+set i_pitchf = 0.030
+set d_pitchf = 35
+set p_yawf = 5.5
+set i_yawf = 0.01
+set d_yawf = 0
+
+set looptime = 2000
