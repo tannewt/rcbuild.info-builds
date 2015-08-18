@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Mini-H-Quad",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "",
+    "prop": [
+      "HQProp/5x4.5-CF-DD"
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
