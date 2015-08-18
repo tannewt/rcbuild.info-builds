@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Hovership/ZUUL-Superbeast",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2208-2000kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Aspec 4S 1800"
+    ],
+    "osd": "PowerOSD",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "Sony Minicase 600tvl",
+    "hqcam": "",
+    "videotx": "Hawkeye/5.8-GHz-32-channel-200mW-Video-Transmitter",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
