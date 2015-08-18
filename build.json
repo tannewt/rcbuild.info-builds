@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ImpulseRC 6\" Alien",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "ReadyMadeRC/Seriously-Dodo",
+    "prop": [
+      "HQProp/5x4x3-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "ReadyMadeRC 4S 1300mAh 35C"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "GoPro/HERO4-Silver",
+    "videotx": "Team-BlackSheep/TBS-Unify-2.4GHz-800mw-16ch-VTX",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
