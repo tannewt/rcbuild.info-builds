@@ -1,12 +1,12 @@
 set pid_controller = 1
-set looptime = 1500
-set min_throttle = 1070
-set max_throttle = 2000
+set looptime = 1200
+set min_throttle = 1140
+set max_throttle = 1950
 
 set p_pitch = 68
 set i_pitch = 40
 set d_pitch = 20
-set p_roll = 34
+set p_roll = 36
 set i_roll = 35
 set d_roll = 18
 set p_yaw = 114
@@ -14,7 +14,7 @@ set i_yaw = 45
 set d_yaw = 3
 
 set rc_rate = 110
-set roll_rate = 75
-set pitch_rate = 75
-set yaw_rate = 90
-set rc_expo = 75
+set roll_rate = 77
+set pitch_rate = 77
+set yaw_rate = 100
+set rc_expo = 69
