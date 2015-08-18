@@ -1,1 +1,25 @@
-undefined
+set pid_controller = 2
+set p_rollf = 2.4
+set i_rollf = 0.032
+set d_rollf = 41
+set p_pitchf = 2.5
+set i_pitchf = 0.035
+set d_pitchf = 41
+set p_yawf = 5.7
+set i_yawf = 0.05
+set d_yawf = 0
+
+set rc_rate = 88
+set rc_expo = 80
+set roll_rate = 77
+set pitch_rate = 65
+set yaw_rate = 50
+
+set gyro_lpf = 256
+set gyro_cut_hz = 128
+set pterm_cut_hz = 32
+set dterm_cut_hz = 32
+
+set acc_hardware = 1
+set emf_avoidance = 1
+set looptime = 600
