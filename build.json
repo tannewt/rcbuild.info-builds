@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV250-Mini-FPV-Quadcopter---Carbon-Fiber-Edition",
+    "esc": "Gecko 20A",
+    "motor": "Micro Titans 2204 2300kv",
+    "fc": "ReadyToFlyQuads/Flip32-v2.5-r7",
+    "prop": [
+      "Gemfan/5x4-FG-MR"
+    ],
+    "arm": "",
+    "battery": [
+      "Multistar 4S 1400mAh Lipo"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "",
+    "videotx": "RCX/TS5828-5.8GHz-32CH-Mini-FPV-Video-Transmitter-(600mW---7g)",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
