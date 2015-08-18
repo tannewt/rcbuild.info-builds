@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV180",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "DYS/1306-3100kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/4x4.5-FG-MR"
+    ],
+    "arm": "",
+    "battery": [
+      "Lumenier/1300mAh-4s-60c-Lipo"
+    ],
+    "osd": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "",
+    "hqcam": "GoPro/HERO4-Silver",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
