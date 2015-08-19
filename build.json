@@ -1,18 +1,21 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ReadyMadeRC/ZMR-250",
+    "esc": "DYS/Mini-20A",
+    "motor": "DYS/BE1806-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
