@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "RD230 Mini (Naked)",
+    "esc": "Hobbywing/XRotor-20A-Multirotor-Brushless-ESC-(3-4S)",
+    "motor": "Cobra/CM-2206-2100kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/5x4.5-FG-MR"
+    ],
+    "arm": "",
+    "battery": [
+      "Dinogy/4S-1300mAh-65C"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
