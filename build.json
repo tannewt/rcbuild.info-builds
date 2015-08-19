@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "UnknownManufacturer/dronematters/RD230-Mini-Quadcopter-Frame",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "ReadyMadeRC/Seriously-Dodo",
+    "prop": [
+      "HQProp/5x4.5-CF-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "AtasSphere/BLITZ-4S-15.2V-1450mah-70C-LiHV-Pack-(Deans)"
+    ],
+    "osd": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "aomway 200mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
