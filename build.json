@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV250-Mini-FPV-Quadcopter---Carbon-Fiber-Edition",
+    "esc": "Lumenier/Mini-20A-ESC-w--SimonK-AutoShot,-5V-1A-BEC-(2-4s)",
+    "motor": "XHover 2204 2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4x3-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Thunder Power 4S 1300mAh 70C"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Lumenier/CM-650-Mini---650TVL-Camera-26x26mm",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
