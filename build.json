@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Super-Mini-H-Quad",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2204-1960kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/6x4.5-FG-MR"
+    ],
+    "arm": "Blackout/Mini-H-Quad---6\"-Arm",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "",
+    "hqcam": "GoPro/HERO4-Black",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
