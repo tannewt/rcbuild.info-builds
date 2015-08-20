@@ -10,10 +10,10 @@
     "battery": [
     ],
     "osd": "",
-    "receiver": "",
-    "flightcam": "",
-    "hqcam": "",
-    "videotx": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "HS1177 FPV Cam",
+    "hqcam": "SpyTec/Mobius-Action-Cam-Wide-Angle",
+    "videotx": "RCX/TS5828-5.8GHz-32CH-Mini-FPV-Video-Transmitter-(600mW---7g)",
     "blackbox": "",
     "voltagereg": ""
   },
