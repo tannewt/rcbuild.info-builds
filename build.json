@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Drone-Matters/ZMR-H250",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4x3-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/4S-1300mAh-75c-Lipo-Battery"
+    ],
+    "osd": "",
+    "receiver": "Graupner GR-16",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "Xiaomi/Yi-Action-Camera-1080P-60FPS-(White)",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
