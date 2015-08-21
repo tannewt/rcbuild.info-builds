@@ -1,14 +1,16 @@
 {
   "config": {
     "frame": "Armattan/Morphite-X-155-Frame",
-    "esc": "",
+    "esc": "DYS/Mini-20A",
     "motor": "RCX/H1306-3100KV",
-    "fc": "",
+    "fc": "ReadyToFlyQuads/Flip32-v2.5-r7",
     "prop": [
       "HQProp/4x4.5-FG-BN"
     ],
     "arm": "",
     "battery": [
+      "Turnigy/nano-tech-1300mah-3S-25~50C-Lipo-Pack",
+      "Turnigy/nano-tech-A-SPEC-G2-850mah-3S-60~90C-Lipo-Pack"
     ],
     "osd": "",
     "receiver": "",
