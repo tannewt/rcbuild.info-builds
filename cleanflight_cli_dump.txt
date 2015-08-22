@@ -1,3 +1,7 @@
+# version
+# Cleanflight/SPRACINGF3 1.9.0 May 31 2015 / 13:17:30 (98f7549)
+# dump master
+
 set pid_controller = 1
 
 set p_roll = 30
