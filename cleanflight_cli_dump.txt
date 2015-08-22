@@ -1,0 +1,22 @@
+# Cleanflight/NAZE 1.8.1 Apr 2 2015 / 17:06:11 (b9664f1)
+
+set pid_controller = 2
+set p_rollf = 1.5
+set i_rollf = 0.035
+set d_rollf = 23
+set p_pitchf = 1.7
+set i_pitchf = 0.035
+set d_pitchf = 23
+set p_yawf = 8.5
+set i_yawf = 0.045
+set d_yawf = 5
+
+set rc_rate = 130
+set rc_expo = 65
+
+set roll_rate = 60
+set pitch_rate = 60
+set yaw_rate = 30
+
+set tpa_rate = 0
+set tpa_breakpoint = 1500

@@ -1,6 +1,6 @@
 {
   "config": {
-    "frame": "MultiRotorMania/Mini-250-v1",
+    "frame": "UnknownManufacturer/banggood/H250-ZMR250-250mm-Carbon-Fiber-Mini-Quadcopter-Multicopter-Frame-Kit",
     "esc": "DYS/Mini-20A",
     "motor": "Cobra/CM-2206-2100kv",
     "fc": "AbuseMark/Acro-Naze32",
