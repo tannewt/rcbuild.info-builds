@@ -1,0 +1,58 @@
+# version
+# BetaFlight/SPARKY 1.10.0 Aug 21 2015 / 11:03:41 (a88d8ca)
+# dump master
+
+feature RX_PPM
+feature VBAT
+feature FAILSAFE
+feature ONESHOT125
+feature BLACKBOX
+
+set looptime = 0
+set sync_gyro_to_loop = 1
+set emf_avoidance = 0
+set rc_smoothing = 1
+
+set max_angle_inclination = 500
+set gyro_lpf = 188
+set moron_threshold = 32
+set gyro_cmpf_factor = 600
+set gyro_cmpfm_factor = 250
+
+set acc_hardware = 0
+set baro_hardware = 1
+set mag_hardware = 1
+set blackbox_rate_num = 1
+set blackbox_rate_denom = 2
+
+set pid_controller = 2
+set p_pitchf = 1.900
+set i_pitchf = 0.550
+set d_pitchf = 0.032
+set p_rollf = 1.500
+set i_rollf = 0.350
+set d_rollf = 0.021
+set p_yawf = 3.900
+set i_yawf = 1.000
+set d_yawf = 0.005
+
+set yaw_p_limit = 500
+set gyro_cut_hz = 0
+set pterm_cut_hz = 40
+set dterm_cut_hz = 10
+
+# dump rates
+
+# rateprofile
+rateprofile 0
+
+set rc_rate = 100
+set rc_expo = 70
+set rc_yaw_expo = 0
+set thr_mid = 50
+set thr_expo = 0
+set roll_rate = 40
+set pitch_rate = 40
+set yaw_rate = 25
+set tpa_rate = 0
+set tpa_breakpoint = 1500
