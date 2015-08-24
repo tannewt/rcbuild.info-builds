@@ -1,10 +1,11 @@
 {
   "config": {
     "frame": "DroneXLabs Racing Quad",
-    "esc": "Flyduino/KISS-18A",
+    "esc": "DYS/Mini-30A",
     "motor": "Cobra/CM-2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
+      "HQProp/5x4.5-FG-BN"
     ],
     "arm": "",
     "battery": [
