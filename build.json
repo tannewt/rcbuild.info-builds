@@ -5,6 +5,7 @@
     "motor": "Cobra/CM-2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
+      "Gemfan/10x3.8-CF-MR"
     ],
     "arm": "",
     "battery": [
