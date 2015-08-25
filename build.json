@@ -2,7 +2,7 @@
   "config": {
     "frame": "Armattan/CF-355-Frame",
     "esc": "DYS/Mini-20A",
-    "motor": "",
+    "motor": "Cobra/CM-2204-2300kv",
     "fc": "",
     "prop": [
     ],
