@@ -1,6 +1,6 @@
 {
   "config": {
-    "frame": "Armattan/CNC-355-Frame",
+    "frame": "Blackout/Mini-H-Quad",
     "esc": "DYS/Mini-20A",
     "motor": "Cobra/CM-2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
