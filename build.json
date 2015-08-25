@@ -14,7 +14,7 @@
     "osd": "",
     "receiver": "FrSky/X4R",
     "flightcam": "",
-    "hqcam": "",
+    "hqcam": "GoPro/HERO4-Black",
     "videotx": "ImmersionRC/5.8GHz-600mw",
     "blackbox": "",
     "voltagereg": ""
