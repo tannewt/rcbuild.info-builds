@@ -106,8 +106,8 @@ color 13 330,0,255
 color 14 0,0,0
 color 15 0,0,0
 
-set looptime = 0
-set sync_gyro_to_loop = 1
+set looptime = 800
+set sync_gyro_to_loop = 0
 set emf_avoidance = 0
 set rc_smoothing = 1
 set mid_rc = 1500
@@ -163,7 +163,7 @@ set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 90
 set max_angle_inclination = 500
-set gyro_lpf = 0
+set gyro_lpf = 42
 set moron_threshold = 32
 set gyro_cmpf_factor = 600
 set gyro_cmpfm_factor = 250
