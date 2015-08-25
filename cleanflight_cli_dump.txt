@@ -328,7 +328,7 @@ set p_vel = 120
 set i_vel = 45
 set d_vel = 1
 set yaw_p_limit = 500
-set gyro_cut_hz = 80
+set gyro_cut_hz = 90
 set pterm_cut_hz = 40
 set dterm_cut_hz = 8
 
