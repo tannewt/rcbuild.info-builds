@@ -345,5 +345,5 @@ set thr_expo = 0
 set roll_rate = 25
 set pitch_rate = 25
 set yaw_rate = 25
-set tpa_rate = 50
+set tpa_rate = 30
 set tpa_breakpoint = 1500
