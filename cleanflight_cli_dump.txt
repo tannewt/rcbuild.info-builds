@@ -1,0 +1,22 @@
+set pid_controller = 2
+set p_rollf = 1.2
+set i_rollf = 0.020
+set d_rollf = 18
+set p_pitchf = 1.5
+set i_pitchf = 0.023
+set d_pitchf = 24
+set p_yawf = 5.5
+set i_yawf = 0.01
+set d_yawf = 0
+
+set rc_rate = 100
+set rc_expo = 70
+set roll_rate = 55
+set pitch_rate = 55
+set yaw_rate = 25
+set yaw_expo = 20
+
+set tpa_rate = 30
+set tpa_breakpoint = 1500
+
+set looptime = 1200
