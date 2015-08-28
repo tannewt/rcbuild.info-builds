@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "280mm",
-    "esc": "Flyduino/KISS-18A",
+    "esc": "Afro 20A",
     "motor": "Cobra/CM-2204-1960kv",
     "fc": "VR µBrain - STM32F407VG - 168 Mhz",
     "prop": [
