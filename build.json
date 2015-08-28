@@ -12,12 +12,12 @@
       "Turnigy/nano-tech-1000mAh-4S-45~90C-Lipo-Pack"
     ],
     "osd": "",
-    "receiver": "",
-    "flightcam": "",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "RunCam/PZ0420M",
     "hqcam": "",
     "videotx": "",
     "blackbox": "",
-    "voltagereg": ""
+    "voltagereg": "Pololu/5V-600mA-Step-Down-Voltage-Regulator-D24V6F5"
   },
   "version": 1
 }
