@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Echo Lite 180mm",
+    "esc": "ZTW/Spider-18A",
+    "motor": "DYS/1306-3100kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "DAL 4x4.5 Bullnose"
+    ],
+    "arm": "",
+    "battery": [
+      "Gens Ace 1300mAh 3S"
+    ],
+    "osd": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "FX799T-2 200MW 5.8Ghz 40Ch",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
