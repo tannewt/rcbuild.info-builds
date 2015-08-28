@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Black-Bolt/XBR",
+    "esc": "DYS/Mini-30A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/AfroMini-32",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "",
+    "hqcam": "SpyTec/Mobius-Action-Cam-Wide-Angle",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
