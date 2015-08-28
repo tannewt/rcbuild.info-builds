@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Black-Bolt/XBR",
+    "esc": "DYS/Mini-30A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/AfroMini-32",
+    "prop": [
+      "HQProp/6x4.5-CF-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/nano-tech-1000mAh-4S-45~90C-Lipo-Pack"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
