@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Super-Mini-H-Quad",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "CC3D MiniMi",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/nano-tech-2200mah-4S-45~90C-Lipo-Pack"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Eachine/CCD-700TVL-148-Degree-Lens-FPV-Camera",
+    "hqcam": "",
+    "videotx": "Eachine/700tvl-ET200--5.8G-32CH-200mW-Mini-Transmitter",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
