@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Super-Mini-H-Quad",
+    "esc": "Flyduino/KISS-30A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4.5-FG-BN"
+    ],
+    "arm": "Blackout/Mini-H-Quad---6\"-Arm",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "Spektrum OrangeRx R110XML Sat",
+    "flightcam": "CS-Super 600",
+    "hqcam": "",
+    "videotx": "Lumenier/TX5G25-Mini-25mW-5.8GHz-FPV-Transmitter-with-Raceband",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
