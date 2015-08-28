@@ -14,7 +14,7 @@
     "osd": "",
     "receiver": "FrSky/X4RSB",
     "flightcam": "RunCam/PZ0420M",
-    "hqcam": "",
+    "hqcam": "SpyTec/Mobius-Action-Cam-Wide-Angle",
     "videotx": "",
     "blackbox": "",
     "voltagereg": "Pololu/5V-600mA-Step-Down-Voltage-Regulator-D24V6F5"
