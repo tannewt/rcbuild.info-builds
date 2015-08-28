@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "Brunei RD230",
-    "esc": "",
+    "esc": "DYS/Mini-20A",
     "motor": "T-Motor/MN2206-2000KV",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
