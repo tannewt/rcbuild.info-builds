@@ -3,7 +3,7 @@
     "frame": "ImpulseRC/Alien-265mm",
     "esc": "ZTW/Spider-18A",
     "motor": "Cobra/CM-2204-2300kv",
-    "fc": "MotoLab/MotoF3",
+    "fc": "MotoLab/Tornado-F3",
     "prop": [
       "HQProp/6x4.5-FG-DD"
     ],
