@@ -1,4 +1,4 @@
-
+set pid_controller = 2
 set gyro_lpf = 188
 set p_pitchf = 1.600
 set i_pitchf = 0.550
