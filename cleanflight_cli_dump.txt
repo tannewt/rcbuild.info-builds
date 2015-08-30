@@ -1,0 +1,14 @@
+
+set gyro_lpf = 188
+set p_pitchf = 1.600
+set i_pitchf = 0.550
+set d_pitchf = 0.035
+set p_rollf = 0.900
+set i_rollf = 0.350
+set d_rollf = 0.020
+set p_yawf = 3.900
+set i_yawf = 1.000
+set d_yawf = 0.005
+set gyro_cut_hz = 0
+set pterm_cut_hz = 40
+set dterm_cut_hz = 8

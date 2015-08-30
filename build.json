@@ -3,7 +3,7 @@
     "frame": "Lumenier/QAV210-CHARPU",
     "esc": "Lumenier/Mini-20A-ESC-w--SimonK-AutoShot,-5V-1A-BEC-(2-4s)",
     "motor": "Cobra/CM-2204-2300kv",
-    "fc": "AbuseMark/Acro-Naze32",
+    "fc": "Seriously-Pro/SP-Racing-F3-(Deluxe)",
     "prop": [
       "Gemfan/5x4.5-FG-BN",
       "Gemfan/5x4.5-FG-MR",
