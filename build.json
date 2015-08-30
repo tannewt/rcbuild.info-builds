@@ -15,7 +15,7 @@
     "receiver": "",
     "flightcam": "Lumenier/CM-650-Mini---650TVL-Camera-26x26mm",
     "hqcam": "GoPro/HERO4-Silver",
-    "videotx": "",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
     "blackbox": "",
     "voltagereg": ""
   },
