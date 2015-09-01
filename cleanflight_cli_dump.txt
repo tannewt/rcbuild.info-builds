@@ -1,0 +1,21 @@
+set roll_rate = 55
+set pitch_rate = 55
+set yaw_rate = 45
+set tpa_rate = 30
+set tpa_breakpoint = 1650
+
+set pid_controller = 2
+set p_pitchf = 0.8
+set i_pitchf = 0.55
+set d_pitchf = 0.011
+set p_rollf = 0.8
+set i_rollf = 0.55
+set d_rollf = 0.011
+set p_yawf = 1.00
+set i_yawf = 0.600
+set d_yawf = 0.010
+
+set gyro_lpf = 256
+set gyro_cut_hz = 100
+set pterm_cut_hz = 50
+set dterm_cut_hz = 10
