@@ -1,0 +1,4 @@
+set gyro_lpf = 188
+set gyro_cut_hz = 100
+set pterm_cut_hz = 80
+set dterm_cut_hz = 20
