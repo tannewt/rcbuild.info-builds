@@ -5,10 +5,10 @@ set tpa_rate = 30
 set tpa_breakpoint = 1650
 
 set pid_controller = 2
-set p_pitchf = 0.8
+set p_pitchf = 0.6
 set i_pitchf = 0.55
 set d_pitchf = 0.011
-set p_rollf = 0.8
+set p_rollf = 0.6
 set i_rollf = 0.55
 set d_rollf = 0.011
 set p_yawf = 1.00
