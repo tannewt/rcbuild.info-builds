@@ -9,10 +9,11 @@
     ],
     "arm": "",
     "battery": [
-      "Lumenier/1800mAh-4s-75c-Lipo"
+      "Lumenier/1800mAh-4s-75c-Lipo",
+      "Turnigy/nano-tech-1800mah-4S-65~130C-Lipo-Pack"
     ],
     "osd": "",
-    "receiver": "FrSky/X4R",
+    "receiver": "FrSky/X4RSB",
     "flightcam": "",
     "hqcam": "GoPro/HERO4-Black",
     "videotx": "ImmersionRC/5.8GHz-600mw",
