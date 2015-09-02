@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Mini-H-Quad",
+    "esc": "TBS Powercube",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "TBS Powercube",
+    "prop": [
+      "HQProp/5x4x3-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Helios RC 1300mAh 4S 75C"
+    ],
+    "osd": "TBS Powercube",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "Team-BlackSheep/Unify-(Rookie)-200mW-5G8-A-V-Transmitter",
+    "blackbox": "",
+    "voltagereg": "TBS Powercube"
+  },
+  "version": 1
 }
