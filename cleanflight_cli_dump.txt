@@ -19,3 +19,6 @@ set gyro_lpf = 256
 set gyro_cut_hz = 100
 set pterm_cut_hz = 50
 set dterm_cut_hz = 10
+set rc_rate = 130
+set looptime = 1000
+set pid_at_min_throttle = 1

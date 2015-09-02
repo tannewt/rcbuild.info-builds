@@ -2,9 +2,10 @@
   "config": {
     "frame": "ImpulseRC/Warpquad-230mm",
     "esc": "",
-    "motor": "Sunnysky/X2204S-2300kv",
+    "motor": "Cobra/CM-2204-1960kv",
     "fc": "MotoLab/Tornado-F3",
     "prop": [
+      "HQProp/6x4.5-FG-DD"
     ],
     "arm": "",
     "battery": [
