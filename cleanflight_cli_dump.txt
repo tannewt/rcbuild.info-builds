@@ -1,6 +1,7 @@
 
+
 # version
-# BetaFlight/SPRACINGF3 1.10.0 Aug 20 2015 / 22:13:15 (b6e0fbd)
+# BetaFlight/SPRACINGF3 1.10.0 Sep  4 2015 / 11:16:43 (3b5d31f)
 # dump master
 
 # mixer
@@ -190,20 +191,24 @@ set magzero_y = 0
 set magzero_z = 0
 
 # rxfail
-rxfail 0 h 1500
-rxfail 1 h 1500
-rxfail 2 h 1500
-rxfail 3 h 1500
-rxfail 4 h 1500
-rxfail 5 h 1500
-rxfail 6 h 1500
-rxfail 7 h 1500
-rxfail 8 h 1500
-rxfail 9 h 1500
-rxfail 10 h 1500
-rxfail 11 h 1500
-rxfail 12 h 1500
-rxfail 13 h 1500
+rxfail 0 a
+rxfail 1 a
+rxfail 2 a
+rxfail 3 a
+rxfail 4 a
+rxfail 5 a
+rxfail 6 a
+rxfail 7 a
+rxfail 8 a
+rxfail 9 a
+rxfail 10 a
+rxfail 11 a
+rxfail 12 a
+rxfail 13 a
+rxfail 14 a
+rxfail 15 a
+rxfail 16 a
+rxfail 17 a
 
 # dump profile
 
