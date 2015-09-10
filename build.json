@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ImpulseRC/Alien-225mm",
+    "esc": "Favorite/LittleBee-20A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "MotoLab/Tornado-F3",
+    "prop": [
+      "HQProp/5x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "4S 1300"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "UnknownManufacturer/impulserc/HS1177-FPV-Camera",
+    "hqcam": "GoPro/HERO4-Black",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
