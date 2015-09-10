@@ -1,16 +1,15 @@
 {
   "config": {
     "frame": "EVO250",
-    "esc": "DYS/Mini-20A",
-    "motor": "Cobra/CM-2204-1960kv",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2206-2100kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
-      "HQProp/6x4.5-FG-DD",
+      "Gemfan/5x4.5-FG-MR",
       "HQProp/5x4.5-FG-BN"
     ],
     "arm": "",
     "battery": [
-      "Turnigy/nano-tech-1300mAh-3S-45~90C-Lipo-Pack",
       "Turnigy Nano-Tech 4S 1800mAh 65C"
     ],
     "osd": "",
