@@ -3,15 +3,27 @@
     "photos": [
       {
         "imgur": {
-          "extension": "",
-          "imageId": ""
+          "extension": "jpg",
+          "imageId": "jxzkcU9"
+        }
+      },
+      {
+        "imgur": {
+          "extension": "jpg",
+          "imageId": "MK01Cd4"
+        }
+      },
+      {
+        "imgur": {
+          "extension": "jpg",
+          "imageId": "BBXnZ98"
         }
       }
     ],
     "videos": [
       {
         "youtube": {
-          "videoId": ""
+          "videoId": "a7MazXZj9fY"
         }
       }
     ]
