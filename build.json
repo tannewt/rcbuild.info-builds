@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ImpulseRC/Alien-225mm",
+    "esc": "Flyduino/KISS-30A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "Seriously-Pro/SP-Racing-F3-(Acro)",
+    "prop": [
+      "HQProp/5x4x3-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Thunderpower 4S 1300mAh 70C"
+    ],
+    "osd": "Team-BlackSheep/TBS-Core-PNP50",
+    "receiver": "",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "GoPro/HERO4-Silver",
+    "videotx": "Lumenier/TX5G6-Mini-600mW-5.8GHz-32CH-FPV-Transmitter-with-Raceband",
+    "blackbox": "",
+    "voltagereg": "Pololu/5-volt-step-down-converter-(1-Amp-version)"
+  },
+  "version": 1
 }
