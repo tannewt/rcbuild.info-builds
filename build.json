@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "MultiRotorMania/Mini-250-v1",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/nano-tech-1800mah-4S-65~130C-Lipo-Pack"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "Aomway/FPV-5.8Ghz-200mW-32CH-Wireless-AV-Transmitter-Module",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
