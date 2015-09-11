@@ -9,7 +9,7 @@
     ],
     "arm": "Lumenier/QAV250-6\"-Carbon-Fiber-Arm-Extensions",
     "battery": [
-      "Tattu/4S-1800mAh-75c-Lipo-Battery"
+      "Tattu/4S-1800mAh-75C"
     ],
     "osd": "",
     "receiver": "FrSky/D4R-II",
