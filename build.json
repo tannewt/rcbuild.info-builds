@@ -2,14 +2,14 @@
   "config": {
     "frame": "XHover/MXP230-Elite-V2-Carbon-Fiber-230mm-Frame",
     "esc": "Flyduino/KISS-18A",
-    "motor": "T-Motor/MN2204-2300KV",
+    "motor": "T-Motor/MN2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
       "HQProp/5x4-FG-DD"
     ],
     "arm": "",
     "battery": [
-      "Turnigy/Nano-Tech-4S-1300mAh-45-90C"
+      "Turnigy/nano-tech-1300mAh-4S-45~90C-Lipo-Pack"
     ],
     "osd": "",
     "receiver": "FrSky/D4R-II",
