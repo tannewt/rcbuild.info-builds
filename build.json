@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ImpulseRC/Alien-225mm",
+    "esc": "Flyduino/KISS-30A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "Naze32 Pro",
+    "prop": [
+      "HQProp/5x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy Multistar 45C"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Surveilzone/HS1177-(PZ0420M)-Sony-Super-HAD-II-Ultra-Mini",
+    "hqcam": "",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
