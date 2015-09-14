@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "RCExplorer Mini Tricopter",
+    "esc": "DYS/Mini-20A",
+    "motor": "RCX/BE2208-1800KV-Outrunner-Brushless-Motor-(Airplane---Free-Mounts---High-Quality)",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "4S 1800mAh 45-75C"
+    ],
+    "osd": "",
+    "receiver": "Hitec Optima 9",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
