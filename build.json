@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Blackout/Mini-H-Quad",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4.5-FG-BN"
+    ],
+    "arm": "Blackout/Mini-H-Quad---Arm",
+    "battery": [
+      "Tattu/4S-1300mAh-45C"
+    ],
+    "osd": "HK E-OSD",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "GoPro/HERO3-Black-Edition",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
