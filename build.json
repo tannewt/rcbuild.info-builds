@@ -9,11 +9,12 @@
     ],
     "arm": "",
     "battery": [
+      "4S 850mAh"
     ],
     "osd": "",
-    "receiver": "",
+    "receiver": "FrSky/X4RSB",
     "flightcam": "",
-    "hqcam": "",
+    "hqcam": "GoPro/HERO4-Black",
     "videotx": "",
     "blackbox": "",
     "voltagereg": ""
