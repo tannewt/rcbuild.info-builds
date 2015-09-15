@@ -1,20 +1,21 @@
 {
   "config": {
     "frame": "FPVModel ZMR250 v1",
-    "esc": "UnknownManufacturer/readytoflyquads/B-12A-Ice-Blue-series-BLHeli-(OneShot)",
-    "motor": "RCX H2206 2250kv",
-    "fc": "ReadyToFlyQuads/Flip32-Deluxe-v5",
+    "esc": "Favorite/LittleBee-20A",
+    "motor": "RCX/H2205-2350KV",
+    "fc": "AbuseMark/Acro-Naze32",
     "prop": [
-      "DAL 6x4"
+      "DAL 5x4.5BN"
     ],
     "arm": "",
     "battery": [
-      "Horeson 4S 1900mAh 40C"
+      "Horeson 4S 1300mAh 60C",
+      "Turnigy/nano-tech-1800mah-4S-35~70C-Lipo-Pack"
     ],
     "osd": "ReadyToFlyQuads/Micro-MinimOSD",
     "receiver": "FrSky/X4R",
     "flightcam": "",
-    "hqcam": "",
+    "hqcam": "Xiaomi/Yi-Action-Camera-1080P-60FPS-(White)",
     "videotx": "Aomway Micro 200mw",
     "blackbox": "",
     "voltagereg": ""
