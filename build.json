@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "GetFPV-Affiliate/The-Minion-Mini-FPV-H-Quad",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2206-2100kv",
+    "fc": "",
+    "prop": [
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/4S-1800mAh-75C"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
