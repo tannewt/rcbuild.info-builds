@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "THug-FRAMES/THuG180-V4-“BRÅNNSTORMER”",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "",
+    "prop": [
+      "HQProp/4x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Multistar 4S 1400mAh 40-80C"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Sony Super HAD CCD",
+    "hqcam": "Xiaomi/Yi-Action-Camera-1080P-60FPS-(White)",
+    "videotx": "Skyzone/TS5823-200mw-video-transmitter",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
