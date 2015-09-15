@@ -1,21 +1,21 @@
 {
   "config": {
     "frame": "Hovership/ZUUL-Racehound",
-    "esc": "DYS/Mini-20A",
+    "esc": "MassiveRC 18A",
     "motor": "LD Power 2204 2300kv",
-    "fc": "AbuseMark/Acro-Naze32",
+    "fc": "ReadyMadeRC/Seriously-Dodo",
     "prop": [
       "Gemfan/5x4.5-FG-BN"
     ],
     "arm": "",
     "battery": [
-      "nano-tech 4S 1600mAh 25C"
+      "Rebel 4S 1300mAh"
     ],
     "osd": "",
-    "receiver": "",
+    "receiver": "FrSky/X4RSB",
     "flightcam": "",
     "hqcam": "",
-    "videotx": "",
+    "videotx": "Hawkeye/5.8-GHz-32-channel-200mW-Video-Transmitter",
     "blackbox": "",
     "voltagereg": ""
   },
