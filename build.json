@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "\"Kermit\" SWH170 Microquad",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "T-Motor/MN1806-2300kv",
+    "fc": "ReadyMadeRC/Seriously-Dodo",
+    "prop": [
+      "DAL 4x4.5"
+    ],
+    "arm": "",
+    "battery": [
+      "Multistar 4S 1400mAh"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Surveilzone/HS1177-(PZ0420M)-Sony-Super-HAD-II-Ultra-Mini",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
