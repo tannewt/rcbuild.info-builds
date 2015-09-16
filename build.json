@@ -1,7 +1,7 @@
 {
   "config": {
     "frame": "Lumenier/QAV250-Mini-FPV-Quadcopter---Carbon-Fiber-Edition",
-    "esc": "Flyduino/KISS-18A",
+    "esc": "Flyduino/KISS-30A",
     "motor": "Lumenier/FX2206-13-2000kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
