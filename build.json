@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV210-CHARPU",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "XHover 2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Lumenier/1300mAh-4s-60c-Lipo"
+    ],
+    "osd": "Team-BlackSheep/TBS-Core-PNP50",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "Lumenier/CS-600-Super---600TVL-D-WDR-Camera",
+    "hqcam": "GoPro/HERO4-Silver",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }

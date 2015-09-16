@@ -1,0 +1,22 @@
+# version
+# Cleanflight/SPRACINGF3 1.9.0 May 31 2015 / 13:17:30 (98f7549)
+# dump master
+
+set pid_controller = 1
+
+set p_roll = 36
+set i_roll = 35
+set d_roll = 26
+set p_pitch = 58
+set i_pitch = 40
+set d_pitch = 26
+set p_yaw = 115
+set i_yaw = 45
+set d_yaw = 8
+
+set roll_rate = 60
+set pitch_rate = 60
+set yaw_rate = 80
+
+set tpa_rate = 10
+set tpa_breakpoint = 1550
