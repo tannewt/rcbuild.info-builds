@@ -12,7 +12,7 @@
       "Lumenier/1300mAh-4s-60c-Lipo"
     ],
     "osd": "UnknownManufacturer/multirotorsuperstore/OSDoge",
-    "receiver": "",
+    "receiver": "FrSky/X4RSB",
     "flightcam": "RunCam/PZ0420M",
     "hqcam": "GoPro/HERO4-Black",
     "videotx": "ImmersionRC/5.8GHz-600mw",
