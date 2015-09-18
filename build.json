@@ -1,18 +1,22 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Shendrones/Tweaker",
+    "esc": "DYS/Mini-20A",
+    "motor": "DYS/BE1806-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/4x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "",
+    "videotx": "UnknownManufacturer/banggood/FPV-FT952-5.8GHz-32CH-200MW-Video-Mini-Transmitter-SMA-Female",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
