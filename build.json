@@ -1,18 +1,21 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Shendrones/Krieger-DTF-200",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2206-2100kv",
+    "fc": "ReadyMadeRC/Seriously-Dodo",
+    "prop": [
+    ],
+    "arm": "",
+    "battery": [
+    ],
+    "osd": "PowerOSD",
+    "receiver": "",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "UBAD 200mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
