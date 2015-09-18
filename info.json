@@ -3,8 +3,14 @@
     "photos": [
       {
         "imgur": {
-          "extension": "",
-          "imageId": ""
+          "extension": "jpg",
+          "imageId": "SLZr5nm"
+        }
+      },
+      {
+        "imgur": {
+          "extension": "jpg",
+          "imageId": "GDWeUW8"
         }
       }
     ],
