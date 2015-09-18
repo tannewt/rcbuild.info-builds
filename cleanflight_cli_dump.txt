@@ -1,0 +1,95 @@
+# BetaFlight/NAZE 1.10.0 Sep 15 2015 / 22:42:27 (3c0e5eb)
+# dump master
+
+# mixer
+mixer QUADX
+mmix reset
+smix reset
+
+
+# feature
+feature -RX_PPM
+feature -VBAT
+feature -INFLIGHT_ACC_CAL
+feature -RX_SERIAL
+feature -MOTOR_STOP
+feature -SERVO_TILT
+feature -SOFTSERIAL
+feature -GPS
+feature -FAILSAFE
+feature -SONAR
+feature -TELEMETRY
+feature -CURRENT_METER
+feature -3D
+feature -RX_PARALLEL_PWM
+feature -RX_MSP
+feature -RSSI_ADC
+feature -LED_STRIP
+feature -DISPLAY
+feature -ONESHOT125
+feature -BLACKBOX
+feature -CHANNEL_FORWARDING
+feature RX_PPM
+feature VBAT
+feature MOTOR_STOP
+feature FAILSAFE
+feature ONESHOT125
+feature BLACKBOX
+set looptime = 0
+set sync_gyro_to_loop = 1
+set emf_avoidance = 0
+set rc_smoothing = 1
+set mid_rc = 1500
+set min_check = 1100
+set max_check = 1900
+set pid_controller = 1
+set p_pitch = 36
+set i_pitch = 35
+set d_pitch = 32
+set p_roll = 28
+set i_roll = 32
+set d_roll = 26
+set p_yaw = 98
+set i_yaw = 45
+set d_yaw = 0
+set p_pitchf = 1.500
+set i_pitchf = 0.400
+set d_pitchf = 0.030
+set p_rollf = 1.500
+set i_rollf = 0.400
+set d_rollf = 0.030
+set p_yawf = 3.500
+set i_yawf = 0.900
+set d_yawf = 0.000
+set level_horizon = 3.000
+set level_angle = 5.000
+set sensitivity_horizon = 75
+set p_alt = 50
+set i_alt = 0
+set d_alt = 0
+set p_level = 80
+set i_level = 10
+set d_level = 100
+set p_vel = 120
+set i_vel = 45
+set d_vel = 1
+set yaw_p_limit = 500
+set gyro_cut_hz = 0
+set pterm_cut_hz = 60
+set dterm_cut_hz = 17
+
+# dump rates
+
+# rateprofile
+rateprofile 0
+
+set rc_rate = 135
+set rc_expo = 65
+set rc_yaw_expo = 6
+set thr_mid = 50
+set thr_expo = 0
+set roll_rate = 50
+set pitch_rate = 45
+set yaw_rate = 68
+set tpa_rate = 52
+set tpa_breakpoint = 1480
