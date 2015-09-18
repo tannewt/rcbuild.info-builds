@@ -1,6 +1,6 @@
 {
   "config": {
-    "frame": "Mini D",
+    "frame": "Drone-Frames/CF-DRQ250-\"Mini-D\"---Carbon-Fiber",
     "esc": "DYS/Mini-20A",
     "motor": "Cobra/CM-2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
