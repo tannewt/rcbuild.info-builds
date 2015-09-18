@@ -5,12 +5,14 @@
     "motor": "Cobra/CM-2206-2100kv",
     "fc": "ReadyMadeRC/Seriously-Dodo",
     "prop": [
+      "HQProp/5x4x3-FG-DD"
     ],
     "arm": "",
     "battery": [
+      "Tattu/4S-1800mAh-75C"
     ],
     "osd": "PowerOSD",
-    "receiver": "",
+    "receiver": "FrSky/X4RSB",
     "flightcam": "",
     "hqcam": "",
     "videotx": "UBAD 200mw",
