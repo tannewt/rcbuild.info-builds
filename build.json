@@ -3,7 +3,7 @@
     "frame": "Blackout/Super-Mini-H-Quad",
     "esc": "RCTimer/Mini-ESC20A",
     "motor": "Cobra/CM-2204-1960kv",
-    "fc": "Seriously-Pro/SP-Racing-F3-(Deluxe)",
+    "fc": "AbuseMark/Full-Naze32",
     "prop": [
       "HQProp/6x4.5-FG-DD"
     ],
