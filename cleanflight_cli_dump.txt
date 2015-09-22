@@ -1,6 +1,6 @@
 
 # version
-# BetaFlight v2/NAZE 1.10.0 Sep 19 2015 / 16:48:32 (e3b53d7)
+# BetaFlight v2/NAZE 1.10.0 Sep 20 2015 / 23:31:37 (e565d62)
 # dump master
 
 # mixer
@@ -105,7 +105,6 @@ color 14 0,0,0
 color 15 0,0,0
 
 set emf_avoidance = 0
-set rc_smoothing = 1
 set mid_rc = 1500
 set min_check = 1100
 set max_check = 1900
@@ -159,7 +158,6 @@ set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 90
 set max_angle_inclination = 500
-set gyro_lpf = 188
 set moron_threshold = 32
 set gyro_cmpf_factor = 600
 set gyro_cmpfm_factor = 250
@@ -298,22 +296,22 @@ set baro_noise_lpf =  0.600
 set baro_cf_vel =  0.985
 set baro_cf_alt =  0.965
 set mag_declination = 0
-set pid_controller = 2
+set pid_controller = 1
 set p_pitch = 40
 set i_pitch = 30
-set d_pitch = 23
-set p_roll = 40
-set i_roll = 30
-set d_roll = 23
+set d_pitch = 40
+set p_roll = 37
+set i_roll = 40
+set d_roll = 40
 set p_yaw = 85
 set i_yaw = 45
-set d_yaw = 0
-set p_pitchf =  1.000
-set i_pitchf =  0.100
-set d_pitchf =  0.010
-set p_rollf =  0.800
-set i_rollf =  0.100
-set d_rollf =  0.010
+set d_yaw = 10
+set p_pitchf =  1.500
+set i_pitchf =  0.400
+set d_pitchf =  0.030
+set p_rollf =  1.500
+set i_rollf =  0.400
+set d_rollf =  0.030
 set p_yawf =  3.500
 set i_yawf =  0.900
 set d_yawf =  0.000
@@ -337,9 +335,9 @@ set dterm_cut_hz = 40
 # rateprofile
 rateprofile 0
 
-set rc_rate = 90
+set rc_rate = 100
 set rc_expo = 70
-set rc_yaw_expo = 0
+set rc_yaw_expo = 20
 set thr_mid = 50
 set thr_expo = 0
 set roll_rate = 25
