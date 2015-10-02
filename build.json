@@ -1,11 +1,11 @@
 {
   "config": {
     "frame": "Lumenier/QAV250-Mini-FPV-Quadcopter---Carbon-Fiber-Edition",
-    "esc": "Flyduino/KISS-18A",
-    "motor": "Lumenier/FX2208-9-2000kv",
+    "esc": "Lumenier/Mini-20A-ESC-w--SimonK-AutoShot,-5V-1A-BEC-(2-4s)",
+    "motor": "Cobra/CM-2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
-      "HQProp/5x4.5-FG-BN"
+      "Gemfan/5x4.5-FG-BN"
     ],
     "arm": "",
     "battery": [
@@ -13,7 +13,7 @@
     ],
     "osd": "",
     "receiver": "FrSky/D4R-II",
-    "flightcam": "Lumenier/CS-600-Super---600TVL-D-WDR-Camera",
+    "flightcam": "Lumenier/CM-650-Mini---650TVL-Camera-26x26mm",
     "hqcam": "GoPro/HERO3+-Black-Edition",
     "videotx": "ImmersionRC/5.8GHz-25mw",
     "blackbox": "",
