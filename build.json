@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Black-Bolt/XBR",
+    "esc": "Flyduino/KISS-30A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/AfroMini-32",
+    "prop": [
+      "HQProp/6x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/nano-tech-1000mAh-4S-45~90C-Lipo-Pack",
+      "Turnigy/nano-tech-1300mAh-4S-45~90C-Lipo-Pack"
+    ],
+    "osd": "",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "",
+    "videotx": "Hawkeye/5.8-GHz-32-channel-200mW-Video-Transmitter",
+    "blackbox": "",
+    "voltagereg": "Pololu/D24V6F5"
+  },
+  "version": 1
 }
