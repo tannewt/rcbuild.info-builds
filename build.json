@@ -3,9 +3,10 @@
     "frame": "ImpulseRC/Alien-225mm",
     "esc": "Flyduino/KISS-30A",
     "motor": "Cobra/CM-2204-2300kv",
-    "fc": "Seriously-Pro/SP-Racing-F3-(Acro)",
+    "fc": "MotoLab/Tornado-F3",
     "prop": [
-      "HQProp/5x4.5-FG-BN"
+      "HQProp/5x4.5-FG-BN",
+      "HQProp/5x4x3-FG-DD"
     ],
     "arm": "",
     "battery": [
