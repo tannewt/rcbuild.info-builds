@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ImpulseRC/Alien-225mm",
+    "esc": "DYS/Mini-20A",
+    "motor": "Sunnysky/X2204S-2300kv",
+    "fc": "AbuseMark/Acro-Naze32-rev5",
+    "prop": [
+      "HQProp/5x4.5-FG-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Multistar 4S 1400mAh 40C"
+    ],
+    "osd": "ReadyToFlyQuads/Micro-MinimOSD",
+    "receiver": "FrSky 2.4ghz",
+    "flightcam": "Sony WDR Security Camera with 2.8mm Lens",
+    "hqcam": "Xiaomi/Yi-Action-Camera-1080P-60FPS-(White)",
+    "videotx": "Aomway 5.8ghz mini FPV Transmitter",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
