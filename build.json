@@ -5,14 +5,14 @@
     "motor": "Cobra/CM-2204-2300kv",
     "fc": "MotoLab/Tornado-F3",
     "prop": [
-      "HQProp/5x4.5-FG-DD"
+      "HQProp/5x4x3-FG-DD"
     ],
     "arm": "",
     "battery": [
-      "4S 1300"
+      "Tattu/4S-1300mAh-75C-Racing-Lipo-Battery-Pack"
     ],
     "osd": "",
-    "receiver": "",
+    "receiver": "FrSky/X4RSB",
     "flightcam": "UnknownManufacturer/impulserc/HS1177-FPV-Camera",
     "hqcam": "GoPro/HERO4-Black",
     "videotx": "ImmersionRC/5.8GHz-600mw",
