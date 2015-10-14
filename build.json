@@ -2,7 +2,7 @@
   "config": {
     "frame": "Lumenier/QAV210-CHARPU",
     "esc": "Flyduino/KISS-18A",
-    "motor": "XHover 2204-2300kv",
+    "motor": "Lumenier 2204-2300kv",
     "fc": "AbuseMark/Acro-Naze32",
     "prop": [
       "HQProp/5x4-FG-DD"
