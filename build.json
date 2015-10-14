@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "UnknownManufacturer/multirotorparts/Dquad-iniMini-H-quad-4\"-versie",
+    "esc": "Favorite/LittleBee-20A",
+    "motor": "T-Motor/MN1806-2300kv",
+    "fc": "AbuseMark/Acro-Naze32-rev5",
+    "prop": [
+      "HQProp/4x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/1300mAh-75C-3S1P-lipo-battery-pack"
+    ],
+    "osd": "",
+    "receiver": "",
+    "flightcam": "Surveilzone/HS1177-Sony-Super-HAD-II",
+    "hqcam": "GoPro/HERO4-Black",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
