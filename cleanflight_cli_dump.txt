@@ -1,6 +1,6 @@
 
 # version
-# BetaFlight v2/NAZE 1.10.0 Sep 30 2015 / 15:16:03 (0f0ad7c)
+# BetaFlight/NAZE 2.1.1 Oct 30 2015 / 00:22:22 (9028ca7)
 # dump master
 
 # mixer
@@ -122,16 +122,13 @@ set 3d_neutral = 1460
 set 3d_deadband_throttle = 50
 set motor_pwm_rate = 400
 set servo_pwm_rate = 50
+set enable_fast_pwm = 0
 set retarded_arm = 0
 set disarm_kill_switch = 1
 set auto_disarm_delay = 5
 set small_angle = 25
 set fixedwing_althold_dir = 1
 set reboot_character = 82
-set gps_provider = 0
-set gps_sbas_mode = 0
-set gps_auto_config = 1
-set gps_auto_baud = 0
 set serialrx_provider = 0
 set spektrum_sat_bind = 0
 set telemetry_switch = 0
@@ -157,10 +154,10 @@ set align_mag = 0
 set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 90
-set max_angle_inclination = 500
+set max_angle_inclination = 600
 set moron_threshold = 32
-set gyro_cmpf_factor = 600
-set gyro_cmpfm_factor = 250
+set imu_dcm_kp = 10000
+set imu_dcm_ki = 30
 set yaw_control_direction = 1
 set pid_at_min_throttle = 1
 set yaw_motor_direction = 1
@@ -169,15 +166,15 @@ set tri_unarmed_servo = 1
 set servo_lowpass_freq = 400
 set servo_lowpass_enable = 0
 set failsafe_delay = 10
-set failsafe_off_delay = 200
+set failsafe_off_delay = 10
 set failsafe_throttle = 1000
 set failsafe_kill_switch = 0
 set failsafe_throttle_low_delay = 100
 set rx_min_usec = 885
 set rx_max_usec = 2115
 set acc_hardware = 0
-set baro_hardware = 1
-set mag_hardware = 1
+set baro_hardware = 0
+set mag_hardware = 0
 set blackbox_rate_num = 1
 set blackbox_rate_denom = 1
 set blackbox_device = 0
@@ -263,20 +260,6 @@ servo 5 1000 2000 1500 90 90 100 -1
 servo 6 1000 2000 1500 90 90 100 -1
 servo 7 1000 2000 1500 90 90 100 -1
 
-set gps_pos_p = 15
-set gps_pos_i = 0
-set gps_pos_d = 0
-set gps_posr_p = 34
-set gps_posr_i = 14
-set gps_posr_d = 53
-set gps_nav_p = 25
-set gps_nav_i = 33
-set gps_nav_d = 83
-set gps_wp_radius = 200
-set nav_controls_heading = 1
-set nav_speed_min = 100
-set nav_speed_max = 300
-set nav_slew_rate = 30
 set alt_hold_deadband = 40
 set alt_hold_fast_change = 1
 set deadband = 0
@@ -285,7 +268,7 @@ set throttle_correction_value = 0
 set throttle_correction_angle = 800
 set default_rate_profile = 0
 set gimbal_mode = 0
-set acc_lpf_factor = 4
+set acc_cut_hz = 15
 set accxy_deadband = 40
 set accz_deadband = 40
 set accz_lpf_cutoff =  5.000
@@ -297,7 +280,7 @@ set baro_noise_lpf =  0.600
 set baro_cf_vel =  0.985
 set baro_cf_alt =  0.965
 set mag_declination = 0
-set pid_controller = 1
+set pid_controller = REWRITE
 set p_pitch = 40
 set i_pitch = 30
 set d_pitch = 40
@@ -309,15 +292,15 @@ set i_yaw = 45
 set d_yaw = 10
 set p_pitchf =  1.500
 set i_pitchf =  0.400
-set d_pitchf =  0.030
+set d_pitchf =  0.020
 set p_rollf =  1.500
 set i_rollf =  0.400
-set d_rollf =  0.030
-set p_yawf =  3.500
+set d_rollf =  0.020
+set p_yawf =  3.900
 set i_yawf =  0.900
 set d_yawf =  0.000
-set level_horizon =  3.000
-set level_angle =  5.000
+set level_horizon =  6.000
+set level_angle =  6.000
 set sensitivity_horizon = 75
 set p_alt = 50
 set i_alt = 0
@@ -328,8 +311,16 @@ set d_level = 100
 set p_vel = 120
 set i_vel = 45
 set d_vel = 1
-set yaw_p_limit = 500
 set dterm_cut_hz = 40
+set gtune_loP_rll = 10
+set gtune_loP_ptch = 10
+set gtune_loP_yw = 10
+set gtune_hiP_rll = 100
+set gtune_hiP_ptch = 100
+set gtune_hiP_yw = 100
+set gtune_pwr = 0
+set gtune_settle_time = 450
+set gtune_average_cycles = 16
 
 # dump rates
 
