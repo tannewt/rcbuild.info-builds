@@ -1,6 +1,6 @@
 
 # version
-# BetaFlight v2/NAZE 1.10.0 Sep 20 2015 / 23:31:37 (e565d62)
+# BetaFlight v2/NAZE 1.10.0 Sep 30 2015 / 15:16:03 (0f0ad7c)
 # dump master
 
 # mixer
@@ -184,6 +184,7 @@ set blackbox_device = 0
 set magzero_x = 0
 set magzero_y = 0
 set magzero_z = 0
+set beeper_off_flags = 0
 
 # rxfail
 rxfail 0 a
